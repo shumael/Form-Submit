@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Sample Form</title>
+</head>
+<body>
+    <form action="https://formsubmit.co/dragon.energy20@email.com" method="POST">
+     <label id="labelName" for="fname"> Name*</label><br>
+      <input id="inputFname" type="text" placeholder="First Name" name="fname" required>
+      <!-- <label for="lname"> Last Name</label><br> -->
+      <input id="inputLname" type="text" placeholder="Last Name" name="lname" required><br>
+
+
+      <label id="labelEmail" for="email"> Email*</label><br>
+      <input id="inputEmail" type="text" placeholder="Email Address" name="email" required><br>
+      
+      <label id="labelMessage" for="message"> Metric Request*</label><br>
+     <!--  <input style="line-height: 6em" id="inputMessage" type="text" placeholder="Write Your Message" name="message" size="85"required><br> -->
+      <textarea id="comments" type="text" placeholder="Message" name="message" required></textarea><br>
+
+      <input type="hidden" name="_next" value="https://shumael.github.io/cypressam/pages/thanks.html">
+
+
+      <input type="hidden" name="_captcha" value="false">
+
+      <button id="submitButton" type="submit"> Submit </button>
+    </form>
+
+</body>
+</html>
